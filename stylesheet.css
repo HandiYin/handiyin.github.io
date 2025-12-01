@@ -150,7 +150,7 @@ span.highlight {
 
 .affiliation-title {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .affiliation-logo img {
@@ -163,10 +163,16 @@ span.highlight {
   width: 90px;
   height: 60px;
   border-radius: 10px;
-  border: 1px solid #e0e6ed;
-  background: #f7f9fc;
+  border: none;
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 10px;
+}
+
+.affiliation-cell {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.45;
 }
