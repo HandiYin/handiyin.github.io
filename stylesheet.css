@@ -172,7 +172,17 @@ span.highlight {
 }
 
 .affiliation-cell {
-  text-align: left;
+  text-align: center;
   font-size: 14px;
   line-height: 1.45;
+}
+
+.affiliation-role,
+.affiliation-dates {
+  display: block;
+  margin-top: 2px;
+}
+
+.affiliation-desc {
+  margin-top: 8px;
 }
